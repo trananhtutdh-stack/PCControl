@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CoreMotionApi_CLRLib">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\SoftServo\WMX3\Lib\CoreMotionApi_CLRLib.dll</HintPath>
+    </Reference>
+    <Reference Include="IOApi_CLRLib">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\SoftServo\WMX3\Lib\IOApi_CLRLib.dll</HintPath>
+    </Reference>
+    <Reference Include="WMX3Api_CLRLib">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\SoftServo\WMX3\Lib\WMX3Api_CLRLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

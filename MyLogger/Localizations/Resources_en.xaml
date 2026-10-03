@@ -1,0 +1,89 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!-- App / MainWindow -->
+    <sys:String x:Key="AppTitle">AUTO LOADER FPCB</sys:String>
+    <sys:String x:Key="Version">Version</sys:String>
+    <sys:String x:Key="Model">Model</sys:String>
+    <sys:String x:Key="Recipe">Recipe</sys:String>
+
+    <sys:String x:Key="Main">Main</sys:String>
+    <sys:String x:Key="Manual">Manual</sys:String>
+    <sys:String x:Key="Motion">Motion</sys:String>
+    <sys:String x:Key="TeachingManager">Teaching</sys:String>
+    <sys:String x:Key="IO">IO</sys:String>
+    <sys:String x:Key="Alarm">Alarm</sys:String>
+    <sys:String x:Key="RecipeNavigation">Recipe</sys:String>
+    <sys:String x:Key="Setting">Setting</sys:String>
+
+    <sys:String x:Key="AutoScroll">AUTO SCROLL</sys:String>
+    <sys:String x:Key="Clear">CLEAR</sys:String>
+    <sys:String x:Key="Log">LOG</sys:String>
+    <sys:String x:Key="SystemControl">SYSTEM CONTROL</sys:String>
+
+    <sys:String x:Key="MachineState">MACHINE STATE</sys:String>
+    <sys:String x:Key="PlcAlive">PLC ALIVE</sys:String>
+    <sys:String x:Key="VisionAlive">VISION ALIVE</sys:String>
+    <sys:String x:Key="Communication">COMMUNICATION</sys:String>
+    <sys:String x:Key="Online">ONLINE</sys:String>
+    <sys:String x:Key="Emergency">EMG</sys:String>
+    <sys:String x:Key="Reset">RESET</sys:String>
+
+    <!-- Motion -->
+    <sys:String x:Key="MotionControl">MOTION CONTROL</sys:String>
+    <sys:String x:Key="ServoOn">SERVO ON</sys:String>
+    <sys:String x:Key="ServoOff">SERVO OFF</sys:String>
+    <sys:String x:Key="Home">HOME</sys:String>
+    <sys:String x:Key="InHome">IN HOME</sys:String>
+    <sys:String x:Key="Ready">READY</sys:String>
+    <sys:String x:Key="Busy">BUSY</sys:String>
+    <sys:String x:Key="Error">ERROR</sys:String>
+    <sys:String x:Key="Stop">STOP</sys:String>
+    <sys:String x:Key="StopAll">STOP ALL</sys:String>
+    <sys:String x:Key="Teaching">TEACHING</sys:String>
+    <sys:String x:Key="CanMove">CAN MOVE</sys:String>
+    <sys:String x:Key="CantMove">CANT MOVE</sys:String>
+    <sys:String x:Key="JogNegative">JOG -</sys:String>
+    <sys:String x:Key="JogPositive">JOG +</sys:String>
+    <sys:String x:Key="JogHigh">H</sys:String>
+    <sys:String x:Key="JogMedium">M</sys:String>
+    <sys:String x:Key="JogLow">L</sys:String>
+    <sys:String x:Key="LimitPositive">L+</sys:String>
+    <sys:String x:Key="Origin">ORG</sys:String>
+    <sys:String x:Key="LimitNegative">L-</sys:String>
+    <sys:String x:Key="MovePosition">MOVE POSITION</sys:String>
+    <sys:String x:Key="Target">Target</sys:String>
+    <sys:String x:Key="Speed">Speed</sys:String>
+    <sys:String x:Key="MoveAbsolute">MOVE ABS</sys:String>
+    <sys:String x:Key="MoveRelative">MOVE REL</sys:String>
+    <sys:String x:Key="Position">Position</sys:String>
+    <sys:String x:Key="JogAcc">Jog Acc</sys:String>
+    <sys:String x:Key="JogDec">Jog Dec</sys:String>
+    <sys:String x:Key="PosAcc">Pos Acc</sys:String>
+    <sys:String x:Key="PosDec">Pos Dec</sys:String>
+    <sys:String x:Key="Creep">Creep</sys:String>
+    <sys:String x:Key="JogH">Jog H</sys:String>
+    <sys:String x:Key="JogM">Jog M</sys:String>
+    <sys:String x:Key="JogL">Jog L</sys:String>
+    <sys:String x:Key="Millimeter">mm</sys:String>
+    <sys:String x:Key="MillimeterPerSecond">mm/s</sys:String>
+
+    <!-- Cylinder -->
+    <sys:String x:Key="Cylinder">Cylinder</sys:String>
+    <sys:String x:Key="State">State</sys:String>
+    <sys:String x:Key="ForwardSensor">Forward Sensor</sys:String>
+    <sys:String x:Key="BackwardSensor">Backward Sensor</sys:String>
+    <sys:String x:Key="Control">Control</sys:String>
+    <sys:String x:Key="BypassSensor">Bypass Sensor</sys:String>
+    <sys:String x:Key="Forward">Forward</sys:String>
+    <sys:String x:Key="Backward">Backward</sys:String>
+    <sys:String x:Key="BypassForward">Bypass Forward</sys:String>
+    <sys:String x:Key="BypassBackward">Bypass Backward</sys:String>
+
+    <!-- IO -->
+    <sys:String x:Key="IoMonitor">IO MONITOR</sys:String>
+    <sys:String x:Key="Input">Input</sys:String>
+    <sys:String x:Key="Output">Output</sys:String>
+</ResourceDictionary>
